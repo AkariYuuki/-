@@ -58,3 +58,5 @@ var embedt = new Discord.RichEmbed()
 .setColor(0x1ab517)
 message.author.sendEmbed(embedt)
 break;
+
+bot.login(process.env.BOT_TOKEN);
